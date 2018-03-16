@@ -88,7 +88,7 @@ That is, so total running time is 2\(E + V\).
 
   1. A deadline has negative weight and opposite direction.
 
-  2. Constrain of deadlines create a cycle of two path: _P+_ which is contains a path from _v_ to _w _and_ P- \_which is contains a path from_ w_ to \_v_.
+  2. Constrain of deadlines create a cycle of two path: _P+_ which is contains a path from _v_ to _w _and P- which is contains a path from_ w_ to _v_.
 
   3. A feasible deadline as part of _P-_ should be making _P-_ has cost not less than _P+_.
 
