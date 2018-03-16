@@ -72,7 +72,7 @@ That is, so total running time is 2\(E + V\).
 
   2. A job indicated by two vertex units: an initial vertex \(_vi_\) and a terminal vertex \(_vj_\). There is a weighted edge connecting _vi_→_vj_ indicated as duration of job to be done.
 
-  3. A constrain of two jobs _ji_ and _jt \_defined by a connection of_ vi ji_ _→vj_ \_jt_.
+  3. A constrain of two jobs _ji_ and _jt \_defined by a connection of_ vi ji_ _→vj_ jt_.
 
      So, referring from the rule above, the DAG representation of our parallel job scheduling has 2 \* N + 2 vertices.
 
@@ -88,7 +88,7 @@ That is, so total running time is 2\(E + V\).
 
   1. A deadline has negative weight and opposite direction.
 
-  2. Constrain of deadlines create a cycle of two path: _P+_ which is contains a path from _v_ to _w _and _P-_ which is contains a path from _w _to_ v._
+  2. Constrain of deadlines create a cycle of two path: _P+_ which is contains a path from _v_ to _w _and_ P-_ which is contains a path from _w _to v.
 
   3. A feasible deadline as part of _P-_ should be making _P-_ has cost not less than _P+_.
 
